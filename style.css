@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 }
 a {
-  color: #333;
+  color: #dcb78c;
   text-decoration: none;
 }
 h1,
@@ -34,50 +34,41 @@ img {
   margin: 0 auto;
 }
 .text-primary {
-  color: #573342;
+  color: #d98c7d;
 }
 .btn {
   display: inline-block;
-  background-color: #333;
+  background-color: #dcb78c;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
 }
 .btn:hover {
-background-color: #573342; /* #f7c08a; */
-  color: #333;
+background-color: #d98c7d;
+  color: #dcb78c;
 }
 /* colores para reutilizar */
 .bg-dark {
-  background-color: #333;
+  background-color: #dcb78c;
   color: #fff;
 }
 .bg-light {
   background-color: #fff;
-  color: #333;
+  color: #dcb78c;
 }
 .bg-primary {
   background-color: #744352; /*#f88844*/
-  color: #333;
+  color: #dcb78c;
 }
 .bg-secondary {
   background-color: #a26067; /*#ffb88c*/
-  color: #333;
+  color: #dcb78c;
 }
-/* paddings para reutilizar */
-.pd-1 {
-  padding: 30px 0;
-}
-.pd-2 {
-  padding: 20px;
-}
-.pd-3 {
-  padding: 30px;
-}
+
 /* Navbar */
 #top-menu {
-  background-color: #333;
+  background-color: #dcb78c;
   color: #fff;
 }
 #top-menu a {
@@ -101,7 +92,7 @@ background-color: #573342; /* #f7c08a; */
   padding: 20px;
 }
 #top-menu .top-menu-container ul a:hover {
-  background-color: #444;
+  background-color: #d98c7d;
   color: #744352;
 }
 #top-menu .top-menu-container ul a.active {
@@ -132,14 +123,14 @@ background-color: #573342; /* #f7c08a; */
   min-height: 30vh;
 }
 #info .info-img {
-  background: url("../img/photo-1.jpg") no-repeat center center/cover;
+  background: url("./images/v.jpg") no-repeat center center/cover;
   flex: 1 1 auto;
   /* flex-grow:1;
     flex-shrink:1;
     flex-basis:auto; */
 }
 #info .info-content {
-  background-color: #333;
+  background-color: #dcb78c;
   color: #fff;
   display: flex;
   flex: 1 0 0%;
@@ -176,7 +167,7 @@ background-color: #573342; /* #f7c08a; */
 }
 /* Testimonial */
 #testimonial {
-  background: url(../img/test-bg.jpg) no-repeat center center/cover;
+  background: url(./images/tinto.jpg) no-repeat center center/cover;
   text-align: center;
   padding-top: 30px;
 }
@@ -241,8 +232,8 @@ width: 100%} */
 }
 /* variables en css */
 :root {
-  --color-primario: #d98c7d;
-  --color-secundario: #dcb78c;
+  --color-primario: #573342;
+  --color-secundario :#444;
   --hamburger-size: 60px;
   --menu-speed: 0.75s;
 }
@@ -324,7 +315,7 @@ width: 100%} */
   /* visibility: hidden; */
   transform: translateX(100vw);
   transition: all 0.4s ease;
-  background-color: #333;
+  background-color: #dcb78c;
 }
 .menu-container .menu ul li {
   list-style: none;
@@ -344,4 +335,12 @@ width: 100%} */
 .menu-container .toggler:checked ~ .menu {
   /* visibility: visible; */
   transform: translateX(0);
+}
+
+.colores {
+.color1 {color: #573342;}
+.color2 {color: #744352;}
+.color3 {color: #a26067;}
+.color4 {color: #d98c7d;}
+.color5 {color: #dcb78c;}
 }
