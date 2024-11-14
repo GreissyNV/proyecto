@@ -52,6 +52,7 @@ img {
   color: #f7c08a;
 }
 
+
 #showcase {
   background: var(--color-primario);
   color: #fff;
@@ -100,7 +101,7 @@ img {
   color: #fff;
   padding: 0.75rem 1.5rem;
   transition: opacity 1s ease-in-out;
-  
+}
 
 .btn:hover {
   opacity: 0.7;
