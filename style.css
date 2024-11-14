@@ -2,32 +2,14 @@
 
 /* variables en css */
 :root {
-  --color-primario: #dcb78c; /*  rgba(9, 30, 34, 0.678);*/
-  --color-secundario: #573342; /* rgba(229, 148, 0, 0.9);*/
   --hamburger-size: 60px;
   --menu-speed: 0.75s;
-
-  /* colores 
-  .colores {
-  .color1 {
-    color: #573342;
-  }
-  .color2 {
-    color: #744352;
-  }
-  .color3 {
-    color: #a26067;
-  }
-  .color4 {
-    color: #d98c7d;
-  }
-  .color5 {
-    color: #dcb78c;
-  }
-}
-  */
-  --primary-color: #573342;
-  --secondary-color: #744352;
+/* Colores */
+  --primary-color: #dcb78c;
+  --secondary-color:#d98c7d;
+  --third-color:#a26067;
+  --fourth-color: #744352;
+  --fiffth-color: #573342;
 }
 
 * {
@@ -55,7 +37,7 @@ body {
 
 #showcase {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--secondary-color);
   height: 100vh;
   position: relative;
 }
