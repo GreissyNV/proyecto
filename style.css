@@ -104,13 +104,9 @@ img {
 }
 
 
-
 .text-primary {
-  color: #f7c08a;
+  color: #573342;;
 }
-
-
-
 
 
 .menu-container {
@@ -234,7 +230,7 @@ img {
 }
 
 .bg-light {
-  background-color: #fff;
+  background-color: #fff;;
   color: #333;
 }
 
@@ -317,16 +313,16 @@ img {
   min-height: 30vh;
 }
 
-#info .info-img {
+/* #info .info-img {
   background: url("../img/photo-1.jpg") no-repeat center center/cover;
   /* flex-grow: 1;
             flex-shrink: 1;
             flex-basis: auto; */
-  flex: 1 1 auto;
-}
+  /*flex: 1 1 auto;
+} */
 
 #info .info-content {
-  background-color: #333;
+  background-color: #d98c7d;
   color: #fff;
   flex: 1 0 0%;
   /* flex-grow: 1;
