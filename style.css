@@ -2,8 +2,8 @@
 
 /* variables en css */
 :root {
-  --color-primario: rgba(9, 30, 34, 0.678);
-  --color-secundario: rgba(229, 148, 0, 0.9);
+  --color-primario:#dcb78c;  /*rgba(9, 30, 34, 0.678);*/
+  --color-secundario: #573342; /* rgba(229, 148, 0, 0.9);*/
   --hamburger-size: 60px;
   --menu-speed: 0.75s;
 }
@@ -23,35 +23,11 @@ body {
   flex-direction: column;
 }
 
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3 {
-  padding-bottom: 20px;
-}
-
-p {
-  margin: 10px;
-}
-
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 960px;
   margin: 0 auto;
   /* padding: 0 3rem; */
 }
-
-.text-primary {
-  color: #f7c08a;
-}
-
 
 #showcase {
   background: var(--color-primario);
@@ -107,6 +83,35 @@ img {
   opacity: 0.7;
   
 }
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+.text-primary {
+  color: #f7c08a;
+}
+
+
+
+
 
 .menu-container {
   position: fixed;
