@@ -298,7 +298,7 @@ img {
 /* Showcase */
 #showcase {
   height: 30vh;
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background: url("./images/media.jpg") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,23 +354,6 @@ img {
   margin-bottom: 1rem;
 }
 
-/* About Info */
-#about-info {
-  display: flex;
-  height: 50vh;
-}
-
-#about-info .about-info-left {
-  flex: 2;
-}
-
-#about-info .about-info-right {
-  flex: 1;
-}
-
-#about-info .about-info-right img {
-  border-radius: 50%;
-}
 
 
 .gallery {
