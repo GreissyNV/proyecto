@@ -109,6 +109,10 @@ img {
   width: 100%;
 }
 
+.text-primary {
+  color: #573342;
+}
+
 .menu-container {
   display: none; /* oculta el menu de hamburguesa*/
   position: fixed;
