@@ -11,6 +11,7 @@
   --fourth-color: #744352;
   --fiffth-color: #573342;
   --light-color: white;
+  --dark-color: black;
 }
 
 * {
@@ -78,8 +79,8 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-top: 1rem;
-  background-color: var(--fourth-color);
-  color: var(--light-color);
+  background-color: var(--primary-color);
+  color: var(--fiffth-color);
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
   transition: opacity 1s ease-in-out;
@@ -141,14 +142,14 @@ img {
   align-items: center;
   padding: 0.5rem;
   border-radius: 6px;
-  background-color: var(--color-secundario);
+  background-color: var(--fiffth-color);
 }
 
 /* dibujar las líneas del menu */
 .menu-container .hamburger > div {
   width: 100%;
   height: 4px;
-  background-color: #fff;
+  background-color: var(--light-color);
   position: relative;
   transition: all 0.4s ease;
 }
@@ -195,12 +196,12 @@ img {
   /* visibility: hidden; */
   transform: translateX(100vw);
   transition: all 0.4s ease;
-  background-color: #333;
+  background-color: var(--third-color);
 }
 
 .menu-container .menu ul li {
   list-style: none;
-  color: #fff;
+  color: var(--light-color);
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
@@ -213,7 +214,7 @@ img {
 }
 
 .menu-container .menu ul li a:hover {
-  color: var(--color-secundario);
+  color: var(--primary-color);
 }
 
 .menu-container .toggler:checked ~ .menu {
@@ -222,7 +223,7 @@ img {
 }
 
 /* colores para reutilizar */
-.bg-dark {
+/* .bg-dark {
   background-color: #333;
   color: #fff;
 }
@@ -240,7 +241,7 @@ img {
 .bg-secondary {
   background-color: #ffb88c;
   color: #333;
-}
+} */
 
 /* Navbar */
 #top-menu {
