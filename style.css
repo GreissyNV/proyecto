@@ -63,7 +63,6 @@ body {
 
 #showcase h1 {
   font-size: 4rem;
-
   background-clip: text;
   color: transparent;
   text-align: center;
@@ -78,8 +77,8 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-top: 1rem;
-  background-color: var(--primary-color);
-  color: var(--fiffth-color);
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
   transition: opacity 1s ease-in-out;
@@ -227,7 +226,6 @@ img {
   color: var(--primary-color);
 }
 .bg-secondary {
-  /* background-color: var(--secondary-color); */
   color: var(--secondary-color);
 }
 .bg-third {
